@@ -9,6 +9,8 @@
 // @icon64       https://avatars.githubusercontent.com/u/35656100
 // @homepage     https://github.com/juckz/one-tampermonkey
 // @supportURL   https://github.com/JuckZ/one-tampermonkey/issues/new
+// @downloadURL  https://github.com/JuckZ/one-tampermonkey/raw/gh-pages/one-tampermonkey.user.js
+// @updateURL    https://github.com/JuckZ/one-tampermonkey/raw/gh-pages/one-tampermonkey.user.js
 // @match        *://*/*
 // @require      https://cdn.jsdelivr.net/npm/vue@3.3.4/dist/vue.global.prod.js
 // @grant        GM_addStyle
