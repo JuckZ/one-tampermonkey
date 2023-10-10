@@ -1,3 +1,4 @@
+import { fileURLToPath } from 'node:url';
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 import monkey, { cdn, util } from 'vite-plugin-monkey';
@@ -17,14 +18,17 @@ export default defineConfig({
       entry: 'src/main.ts',
       userscript: {
         name: 'OneMonkey',
-        icon: 'https://vitejs.dev/logo.svg',
+        icon: 'https://avatars.githubusercontent.com/u/35656100',
         namespace: 'npm/vite-plugin-monkey',
         match: ['*://*/*'],
-        "run-at": 'document-body',
+        'run-at': 'document-body',
         noframes: true,
-        icon64URL: 'https://avatars.githubusercontent.com/u/35656100',
+        homepage: 'https://github.com/juckz/one-tampermonkey',
+        // downloadURL: '',
+        // updateURL: '',
+        license: 'MIT',
+        supportURL: 'https://github.com/JuckZ/one-tampermonkey/issues/new',
         icon64: 'https://avatars.githubusercontent.com/u/35656100',
-        iconURL: 'https://avatars.githubusercontent.com/u/35656100'
       },
       clientAlias: '$',
       build: {
@@ -34,4 +38,12 @@ export default defineConfig({
       },
     }),
   ],
+  resolve: {
+    alias: [
+      {
+        find: '@',
+        replacement: fileURLToPath(new URL('./src', import.meta.url)),
+      },
+    ],
+  }
 });
