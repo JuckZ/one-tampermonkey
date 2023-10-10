@@ -1,24 +1,25 @@
 // ==UserScript==
-// @name        OneMonkey
-// @namespace   npm/vite-plugin-monkey
-// @version     0.0.0
-// @author      monkey
-// @license     MIT
-// @icon        https://avatars.githubusercontent.com/u/35656100
-// @icon64      https://avatars.githubusercontent.com/u/35656100
-// @homepage    https://github.com/juckz/one-tampermonkey
-// @supportURL  https://github.com/JuckZ/one-tampermonkey/issues/new
-// @match       *://*/*
-// @require     https://cdn.jsdelivr.net/npm/vue@3.3.4/dist/vue.global.prod.js
-// @grant       GM_addStyle
-// @grant       GM_getValue
-// @grant       GM_notification
-// @grant       GM_openInTab
-// @grant       GM_registerMenuCommand
-// @grant       GM_setValue
-// @grant       GM_unregisterMenuCommand
-// @grant       GM_xmlhttpRequest
-// @run-at      document-body
+// @name         OneMonkey
+// @namespace    npm/vite-plugin-monkey
+// @version      0.0.0
+// @author       monkey
+// @description  Some useful tools, all in one
+// @license      MIT
+// @icon         https://avatars.githubusercontent.com/u/35656100
+// @icon64       https://avatars.githubusercontent.com/u/35656100
+// @homepage     https://github.com/juckz/one-tampermonkey
+// @supportURL   https://github.com/JuckZ/one-tampermonkey/issues/new
+// @match        *://*/*
+// @require      https://cdn.jsdelivr.net/npm/vue@3.3.4/dist/vue.global.prod.js
+// @grant        GM_addStyle
+// @grant        GM_getValue
+// @grant        GM_notification
+// @grant        GM_openInTab
+// @grant        GM_registerMenuCommand
+// @grant        GM_setValue
+// @grant        GM_unregisterMenuCommand
+// @grant        GM_xmlhttpRequest
+// @run-at       document-body
 // @noframes
 // ==/UserScript==
 
