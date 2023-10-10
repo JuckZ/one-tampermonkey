@@ -22,6 +22,7 @@ export default defineConfig({
         namespace: 'npm/vite-plugin-monkey',
         match: ['*://*/*'],
         'run-at': 'document-body',
+        description: 'Some useful tools, all in one',
         noframes: true,
         homepage: 'https://github.com/juckz/one-tampermonkey',
         // downloadURL: '',
