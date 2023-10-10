@@ -1,10 +1,3 @@
-<script setup lang="ts">
-import { ref } from 'vue';
-
-defineProps<{ fabIcon: string }>();
-
-</script>
-
 <template>
   <div class="fab-wrapper">
     <p class="fab-button">

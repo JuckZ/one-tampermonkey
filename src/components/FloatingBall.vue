@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { onMounted, ref } from 'vue';
 import { getSelector } from '../util';
-import Fab from './Fab.vue';
+import FabComponent from './FabComponent.vue';
 
 const count = ref(0);
 let isSetting = ref(false);
@@ -81,7 +81,7 @@ onMounted(() => {
 
 <template>
   <div id="fab-component">
-    <fab> 
+    <FabComponent> 
       <template #icon>
         <span class="fab">
           <img
@@ -108,7 +108,7 @@ onMounted(() => {
           @click="save"
         >保存</span>
       </template> 
-    </fab>
+    </FabComponent>
   </div>
 </template>
 
